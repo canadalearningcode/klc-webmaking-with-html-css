@@ -15,11 +15,11 @@ HOW TO USE:
 
 * Update the slides (in a text editor):
     * Insert the network info (Slide 1)
-    * Edit the facilitator info with your photo and details (Slide 2 and 50)
+    * Edit the facilitator info with your photo and details (Slide 2 and 51)
 
 1 Day to Go
 
-* Print Facilitator Guide, TAG puzzle sheets, and Solution Sheets to bring to the workshop.
+* Print Facilitator Guide, TAG puzzle sheets, and STEPS Solution Sheets to bring to the workshop.
 
 ## During the Workshsop
 * Have Facilitator Guide accessible throughout the workshop, follow along in the guide for support.
