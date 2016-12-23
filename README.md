@@ -1,6 +1,21 @@
-#Kids Learning Code: Webmaking with Scratch
+#Kids Learning Code: Webmaking with HTML & CSS
 
-HOW TO USE:
+##Quick Links
+
+Preview Facilitator Guide: <a href="https://ladieslearningcode.github.io/klc-webmaking-with-html-css/facilitator-guide.html">ladieslearningcode.github.io/klc-webmaking-with-html-css/facilitator-guide.html</a>
+
+Preview Slides: <a href="https://ladieslearningcode.github.io/klc-webmaking-with-html-css/slides.html">ladieslearningcode.github.io/klc-webmaking-with-html-css/slides.html</a>
+
+Activity List: <a href="http://bit.ly/webmaking-activity-list">bit.ly/webmaking-activity-list</a>
+
+##Additional Resources (Optional)
+
+Unplugged Activities: <a href="http://bit.ly/unplugged-activities-doc">bit.ly/unplugged-activities-doc</a>
+
+Youth Facilitator Handbook: <a href="http://bit.ly/youth-facilitator-handbook-doc">bit.ly/youth-facilitator-handbook-doc</a>
+
+
+#HOW TO USE:
 ## Before the Workshop
 1 Week to Go
 
@@ -9,17 +24,18 @@ HOW TO USE:
 
 3 Days to Go
 
+* Select a Code-Along activity from the Activity List
 * Practice going through the selected Code-Along and Work Session activities
 
 2 Days To Go
 
-* Update the slides (in a text editor):
+* Update the slides (in a text editor, like <a href="https://atom.io/">atom.io</a>):
     * Insert the network info (Slide 1)
     * Edit the facilitator info with your photo and details (Slide 2 and 51)
 
 1 Day to Go
 
-* Print Facilitator Guide, TAG puzzle sheets, and STEPS Solution Sheets to bring to the workshop.
+* Print Facilitator Guide, <a href="https://docs.google.com/document/d/10RO_M1tgsWM7HV0THEYVrQMqPC1kMHAD-YwZ-ysXZU4/edit?usp=sharing">TAG puzzle sheets</a>, and <a href="https://docs.google.com/document/d/1jVa14X__A63sA6XsDhzXqRwbZszartYkQ_ARM8TedtU/edit?usp=sharing">STEPS Solution Sheets</a> to bring to the workshop.
 
 ## During the Workshsop
 * Have Facilitator Guide accessible throughout the workshop, follow along in the guide for support.
