@@ -35,7 +35,7 @@ Youth Facilitator Handbook: <a href="http://bit.ly/youth-facilitator-handbook-do
 
 1 Day to Go
 
-* Print Facilitator Guide, <a href="https://docs.google.com/document/d/10RO_M1tgsWM7HV0THEYVrQMqPC1kMHAD-YwZ-ysXZU4/edit?usp=sharing">TAG puzzle sheets</a>, and <a href="https://docs.google.com/document/d/1jVa14X__A63sA6XsDhzXqRwbZszartYkQ_ARM8TedtU/edit?usp=sharing">STEPS Solution Sheets</a> to bring to the workshop.
+* Print Facilitator Guide and <a href="https://docs.google.com/document/d/1jVa14X__A63sA6XsDhzXqRwbZszartYkQ_ARM8TedtU/edit?usp=sharing">STEPS Solution Sheets</a> to bring to the workshop.
 
 ## During the Workshsop
 * Have Facilitator Guide accessible throughout the workshop, follow along in the guide for support.
