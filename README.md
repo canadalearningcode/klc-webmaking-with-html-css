@@ -31,7 +31,6 @@ Youth Facilitator Handbook: <a href="http://bit.ly/youth-facilitator-handbook-do
 
 * Update the slides (in a text editor, like <a href="https://atom.io/">atom.io</a>):
     * Insert the network info (Slide 1)
-    * Edit the facilitator info with your photo and details (Slide 2 and 51)
 
 1 Day to Go
 
