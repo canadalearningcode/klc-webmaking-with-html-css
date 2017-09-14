@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Kids Learning Code</title>
+  <link rel="stylesheet" href="framework/css/slideshow.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/fonts.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/highlightjs/github.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/styles.css" data-noprefix>
+  <link rel="shortcut icon" href="framework/img/favicon.ico">
+
+  <!-- Takes care of CSS3 prefixes -->
+  <script src="framework/scripts/prefixfree.min.js"></script>
+
+  <!-- opens all links in a new window -->
+  <base target="_blank">
+</head>
+
+<!-- Timer/progress bar: Define the presentation duration using "data-duration" in minutes. -->
+<body class="en" data-duration="40">
+
+  <main>
+    <!--Slide 1-->
+    <section class="slide welcome highlight">
+      <h1><img class="logo-stacked" src="framework/img/klc-logo-stacked-white.png" alt="Kids Learning Code logo">Welcome!</h1>
+
+      <div class="instructions">
+        <!-- ADD WIFI INFO HERE -->
+        <h2>Get <br>Connected</h2>
+        <p><strong>Wifi:</strong> wifi network</p>
+        <p><strong>Password:</strong> wifi password</p>
+        <hr>
+
+      </div>
+      <footer>
+        <a class="left" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" src="framework/img/cc-by-nc.png" /></a>
+        <p class="left">Content created by Kassandra Lenters and Eden Beronio for <a prefix="cc: http://creativecommons.org/ns#" href="http://ladieslearningcode.com" property="cc:attributionName" rel="cc:attributionURL">Ladies Learning Code</a></p>
+        <p class="right">Use the left <span class="arrow">&#8592;</span> and right <span class="arrow">&#8594;</span> arrow keys to navigate</p>
+      </footer>
+    </section>
+
+    <!--Slide 2-->
+    <section class="slide intro">
+      <img class="logo" src="framework/img/klc-logo-white.png" alt="Ladies Learning Code logo">
+      <h1 class="heading-bg">
+        <span>Webmaking<br>
+        with HTML & CSS</span>
+      </h1>
+
+      <!-- <img class="instructor" src="http://placehold.it/225x225" alt="Instructor Name"> -->
+      <!--<h2><span class="cursive">with</span>Kids Learning Code</h2>-->
+      <ul>
+        <li><a href="http://twitter.com/learningcode">@learningcode</a></li>
+        <li><a href="https://twitter.com/search?q=%23kidslearningcode&src=typd">#kidslearningcode</a></li>
+      </ul>
+
+      <div class="sponsor">
+        <p>In partnership with<br> <img src="framework/img/telus-logo-white.svg" alt="Telus"></p>
+      </div>
+      <footer>
+        <a class="left" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" src="framework/img/cc-by-nc.png" /></a>
+        <p class="left">Slides created by <a href="http://christinatruong.com">Christina Truong</a> for <a prefix="cc: http://creativecommons.org/ns#" href="http://ladieslearningcode.com" property="cc:attributionName" rel="cc:attributionURL">Ladies Learning Code</a></p>
+        <p class="right">Use the left <span class="arrow">&#8592;</span> and right <span class="arrow">&#8594;</span> arrow keys to navigate</p>
+      </footer>
+    </section>
+
+    <!--Slide 3-->
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #Introductions
+      </script>
+    </section>
+
+    <!--Slide 4-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Table of Contents
+
+        <div class="table-of-contents"></div>
+
+          <!-- Intro + Example Projects + Guest Speaker (10am)
+
+        Project Ideation + Wireframing (10:15am)
+
+        Intro to HTML + CSS (10:45am)
+
+        Lunch (12:30pm)
+
+        Building time! (1:15pm)
+
+        Demos + Pushing Live (3:30pm) -->
+
+      </script>
+    </section>
+
+    <!--Slide 5-->
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+      #Agenda
+
+      Introduction
+
+      Code-Along
+
+      Work Session: Building your website
+
+      Break
+
+      Intro to CSS
+
+      Work Session: Styling your website
+
+      </script>
+    </section>
+
+    <!--Slide 6-->
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+       ![Coders Code Banner](framework/img/workshop/scroll2.png)
+         ## 1. ASK FOR HELP  <!-- .element: class="delayed" -->
+         ## 2. BE PRESENT  <!-- .element: class="delayed" -->
+         ## 3. TRY YOUR BEST!  <!-- .element: class="delayed" -->
+      </script>
+    </section>
+
+    <!--Slide 7-->
+    <section class="slide title" data-toc data-markdown>
+     <script type="text/template">
+       # What is Code?
+     </script>
+    </section>
+
+    <!--Slide 8-->
+    <section class="slide" data-markdown>
+     <script type= "text/template">
+       #Code is..
+       ## A SET OF INSTRUCTIONS THAT TELLS THE COMPUTER WHAT TO DO.
+
+       <br>
+       ![Running robot gif](framework/img/workshop/runningrobot.gif)
+       ![Dancing robot gif](framework/img/workshop/dancingrobot.gif)
+       ![eating robot gif](framework/img/workshop/eatingrobot.gif)
+       ![Dancing robot gif](framework/img/workshop/dancingrobot2.gif)
+       ![Dancing robot gif](framework/img/workshop/bluerobot.gif)
+       ![Dancing robot gif](framework/img/workshop/partyrobot.gif)
+
+       <p> In code, we call a set of instructions an <strong style="color:#00a076;">algorithm</strong>.</p><!-- .element: class=“delayed” -->
+
+     </script>
+    </section>
+
+    <!--Slide 9-->
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        # Today's Project
+
+        ## We are learning how to make a website using HTML + CSS
+      </script>
+    </section>
+
+    <!--Slide 10-->
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        # Why make websites?
+      </script>
+    </section>
+
+    <!--Slide 11-->
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #How is a website made?
+        1. Draw it on a piece of paper and take a photo <!-- .element: class="delayed" -->
+        1. Use a writing program like Microsoft Word <!-- .element: class="delayed" -->
+        1. Yell at the computer until it makes a website <!-- .element: class="delayed" -->
+        1. Write code <!-- .element: class="delayed" -->
+
+        ![https://www.flickr.com/photos/baldiri/5734993652](framework/img/workshop/wireframe.jpg)
+        ![https://www.flickr.com/photos/ivanwalsh/4457223020](framework/img/workshop/worddoc.jpg)
+        ![https://pixabay.com/en/social-social-networks-1206614/](framework/img/workshop/angry.jpg)
+        ![https://pixabay.com/en/code-programming-hacking-html-web-820275/](framework/img/workshop/code.jpg)
+
+        <div class="dropdown">
+                  <button class="dropbtn">Attributions</button>
+                  <div class="dropdown-content">
+                    <a href="https://www.flickr.com/photos/baldiri/5734993652">Wireframing photo</a>
+                    <a href= "https://www.flickr.com/photos/ivanwalsh/4457223020">Microsoft word photo</a>
+                    <a href= "https://pixabay.com/en/social-social-networks-1206614/]">Social Media illustration</a>
+                    <a href="https://pixabay.com/en/code-programming-hacking-html-web-820275/">Code photo</a>
+                  </div>
+
+      </script>
+    </section>
+
+    <!--Slide 12-->
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        # Websites are made using code!
+      </script>
+    </section>
+
+    <!--Slide 13-->
+    <section class="slide centered" data-markdown data-toc>
+      <script type="text/template">
+        #What is code?
+
+        ![https://pixabay.com/en/code-html-digital-coding-web-1076533/](framework/img/workshop/codelarge.jpg)
+
+        <div class="dropdown">
+                  <button class="dropbtn">Attributions</button>
+                  <div class="dropdown-content">
+                    <a href="https://pixabay.com/en/code-html-digital-coding-web-1076533/">Code photo</a>
+                  </div>
+
+      </script>
+    </section>
+
+    <!--Slide 14-->
+    <section class="slide  two-col-list" data-markdown>
+      <script type="text/template">
+        #HTML
+        * A bit about browsers...
+          * We use browsers to see websites
+          * Browsers don’t understand English
+          * They do understand HTML!
+
+        * ![https://giphy.com/gifs/cat-internet-bounce-f09WzpLun6axq](framework/img/workshop/pusheeninternet.gif)
+
+        <div class="dropdown">
+                  <button class="dropbtn">Attributions</button>
+                  <div class="dropdown-content">
+                    <a href="https://giphy.com/gifs/cat-internet-bounce-f09WzpLun6axq">Pusheen gif</a>
+                  </div>
+      </script>
+    </section>
+
+    <!--Slide 15-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #HTML
+        * Stands for HyperText Markup Language
+        * We use HTML to tell the browser what our website looks like, and which content to display
+
+        ![https://www.pexels.com/photo/startup-planning-notes-mac-book-7357/](framework/img/workshop/laptop.jpg)
+
+        <div class="dropdown">
+                  <button class="dropbtn">Attributions</button>
+                  <div class="dropdown-content">
+                    <a href="https://www.pexels.com/photo/startup-planning-notes-mac-book-7357/">Laptop photo</a>
+                  </div>
+    </script>
+    </section>
+
+    <!--Slide 16-->
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        # What does HTML look like?
+      </script>
+    </section>
+
+    <!--Slide 17-->
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        # Elements
+
+        HTML is made up of elements, which are created using tags
+        ```html
+        <p> This is a paragraph of text. </p>
+        ```
+        ```html
+        <p> = opening tag
+        </p> = closing tag
+        ```
+        ![moving tags](framework/img/workshop/tag2.gif) <!-- .element: class="delayed" -->
+      </script>
+    </section>
+
+    <!--Slide 18-->
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+        #Tags use < and > and /
+
+        ![HTML keys](framework/img/workshop/htmlkeys.jpg)
+      </script>
+    </section>
+
+    <!--Slide 19-->
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+        #Tags always come in pairs
+        * With
+          ```html
+          <p>This is a paragraph of text.</p>
+          ```
+          ![https://commons.wikimedia.org/wiki/File:PEO-smiling_cat_face_with_open_mouth.svg](framework/img/workshop/cathappy.png)
+        * Without
+          ```html
+          <p>This is a paragraph of text.
+          ```
+          ![https://commons.wikimedia.org/wiki/File:PEO-crying_cat_face.svg](framework/img/workshop/catsad.png)
+
+
+          <div class="dropdown">
+                    <button class="dropbtn">Attributions</button>
+                    <div class="dropdown-content">
+                      <a href="https://commons.wikimedia.org/wiki/File:PEO-smiling_cat_face_with_open_mouth.svg">Happy cat emoji</a>
+                      <a href="https://commons.wikimedia.org/wiki/File:PEO-crying_cat_face.svg">Sad cat emoji</a>
+                    </div>
+      </script>
+    </section>
+
+    <!--Slide 20-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Perfect Pairs
+        Which of these tags is the perfect pair for ```<p>```?
+
+        1. ```<p>``` <!-- .element: class="delayed" -->
+        1. ```</b>``` <!-- .element: class="delayed" -->
+        1. ```</p>``` <!-- .element: class="delayed" -->
+        1. ```</>``` <!-- .element: class="delayed" -->
+
+        ```<p> is perfect pairs with </p>!``` <!-- .element: class="delayed" -->
+      </script>
+    </section>
+
+    <!--Slide 21-->
+    <section class="slide two-col-list" data-markdown data-toc>
+      <script type="text/template">
+        * Tags to Remember
+            ```html
+            <html>
+              <head>
+              </head>
+              <body>
+              </body>
+            </html>
+            ```
+        * <br>
+          ![girl](framework/img/workshop/paperdoll.png)
+
+  </script>
+  </section>
+
+    <!--Slide 22-->
+      <section class="slide two-col-list" data-markdown>
+        <script type="text/template">
+          * Tags to Remember
+              ```html
+              <html>
+                <head>
+                  <title>MEOWly website</title>
+                </head>
+                <body>
+                  <h1>MEOWly</h1>
+                  <p>all about cats</p>
+                </body>
+              </html>
+              ```
+          * <br>
+            ![girl](framework/img/workshop/paperdoll2.png)
+
+    </script>
+    </section>
+
+    <!--Slide 23-->
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Code-Along
+      </script>
+    </section>
+
+    <!--Slide 24-->
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+        #Website Ideas
+        * Bakery<br> ![https://www.pexels.com/photo/muffin-sweet-bakery-treat-8279/](framework/img/workshop/bakery.jpeg)<br>
+        * Pet profiles<br> ![https://www.pexels.com/photo/animal-dog-pet-cute-1173/](framework/img/workshop/pet.jpeg)
+        * Book reviews<br> ![https://www.pexels.com/photo/girl-reading-a-notebook-6342/](framework/img/workshop/book.jpg)<br>
+        * DIY blog<br> ![https://www.pexels.com/photo/seated-woman-pulling-sewing-pins-from-box-60229/](framework/img/workshop/diy.jpeg)
+
+        <div class="dropdown">
+                  <button class="dropbtn">Attributions</button>
+                  <div class="dropdown-content">
+                    <a href="https://www.pexels.com/photo/muffin-sweet-bakery-treat-8279/">Muffin photo</a>
+                    <a href="https://www.pexels.com/photo/animal-dog-pet-cute-1173/">Dog photo</a>
+                    <a href="https://www.pexels.com/photo/girl-reading-a-notebook-6342/">Book photo</a>
+                    <a href="https://www.pexels.com/photo/seated-woman-pulling-sewing-pins-from-box-60229/">Sewing photo</a>
+                  </div>
+      </script>
+    </section>
+
+    <!--Slide 25-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Mozilla Thimble
+        ## LOG IN
+
+        * Username: kidslearningcode
+        * Password: Helloworld123
+      </script>
+    </section>
+
+    <!--Slide 26-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #STEP 1: Fill in your website’s information
+        * Title / What is your website called?
+        * Heading / What is your website about?
+        * Paragraph / Give a short description
+
+        ![https://www.pexels.com/photo/woman-desk-macbook-pro-pen-68761/](framework/img/workshop/working.jpeg)
+
+        <div class="dropdown">
+                  <button class="dropbtn">Attributions</button>
+                  <div class="dropdown-content">
+                    <a href="https://www.pexels.com/photo/woman-desk-macbook-pro-pen-68761/">Programmer photo</a>
+                  </div>
+      </script>
+    </section>
+
+    <!--Slide 27-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #STEP 2: Play around with headings
+        Change ```<h1> Heading </h1>``` to another number.
+
+        For example, ```<h2> Heading </h2>```
+
+        What happens?
+
+        ![hello](framework/img/workshop/bubble.png)
+
+      </script>
+    </section>
+
+    <!--Slide 28-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #STEP 3: Add an image!
+        * Download an image from Google (right click > save as)
+        * Click on the green “+” in Thimble
+        * Select “upload” and find the image on your computer
+        * Go back to “index.html” tab and type this in:<br>
+          ![img tag screenshot](framework/img/workshop/imgtag.png)
+        * Your image should drop down. Click on it, then close the tag:
+        ```html
+        <img src="img-thing.jpeg" />
+        ```
+      </script>
+    </section>
+
+    <!--Slide 29-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Add-On: Add a link!
+        (inside the ```<body>``` tags)
+
+        ```html
+        <a href="http://www.google.com"> Click here to go to Google! </a>
+        ```
+
+        Looks like
+
+        <a href="http://www.google.com">Click here to go to Google! </a>
+      </script>
+    </section>
+
+    <!--Slide 30-->
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+        #Add-On: Make a list
+        * Use unordered lists ```<ul>``` when the order of your items doesn’t matter
+          ```
+          <ul>
+            <li> Item </li>
+            <li> Item </li>
+          </ul>
+          ```
+          <ul>
+            <li> Item </li>
+            <li> Item </li>
+          </ul>
+        * Use ordered lists ```<ol>``` when items need to be in a specific order
+          ```
+          <ol>
+            <li> Item </li>
+            <li> Item </li>
+          </ol>
+          ```
+          <ol>
+            <li> Item </li>
+            <li> Item </li>
+          </ol>
+
+      </script>
+    </section>
+
+    <!--Slide 31-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Build your website!
+        * Ideas
+          * About us
+          * Example products / profiles
+          * Lots of images!
+          * Support / How to get involved
+          * Links to other resources or similar websites
+      </script>
+    </section>
+
+    <!--Slide 32-->
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #Let's make everything beautiful!
+      </script>
+    </section>
+
+    <!--Slide 33-->
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #CSS
+        * Stands for Cascading Style Sheets
+        * Like HTML, CSS communicates with our browser
+        * It makes HTML look pretty!
+
+        ![https://giphy.com/gifs/celebrate-halloween-6QyyP2Qy4EfBe](framework/img/workshop/pusheenunicorn.gif)
+
+        <div class="dropdown">
+                  <button class="dropbtn">Attributions</button>
+                  <div class="dropdown-content">
+                    <a href="https://giphy.com/gifs/celebrate-halloween-6QyyP2Qy4EfBe">Pusheen gif</a>
+                  </div>
+      </script>
+    </section>
+
+    <!--Slide 34-->
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+        #What's the Difference?
+        * HTML
+          * Used for content
+            <h3>Headings</h3>
+            Paragraphs<br>
+            ![Images](framework/img/workshop/images.png)<br>
+            <a href="http://css.cool">Links</a><br>
+            * Lists (like this!)
+        * CSS
+          * Used for design
+            <div style="color: Turquoise;">Colours</div>
+            <div style="font-family: Impact, Charcoal, sans-serif !important;">Fonts</div>
+            <div style="background-color: Gold;">Backgrounds</div>
+            <div style="border: 5px solid plum;">Borders</div>
+            <div style="font-size: 72px;">Sizes</div>
+      </script>
+    </section>
+
+    <!--Slide 35-->
+    <section class="slide two-col-list" data-markdown>
+      <script type="text/template">
+        #What's the Difference?
+        * WITHOUT CSS <br><!-- .element: class="delayed" -->
+        ![website without css](framework/img/workshop/glcnocss.jpg)<!-- .element: class="delayed" -->
+        * WITH CSS <br><!-- .element: class="delayed" -->
+          ![website with css](framework/img/workshop/glcwithcss.jpg)<!-- .element: class="delayed" -->
+      </script>
+    </section>
+
+    <!--Slide 36-->
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #What does CSS look like?
+      </script>
+    </section>
+
+    <!--Slide 37-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Example
+        ##CSS
+        ```css
+        p {
+          color:red;
+        }
+        ```
+
+        ##How does it compare to HTML?
+        ```html
+        <p> This is a paragraph. </p>
+        ```
+      </script>
+    </section>
+
+    <!--Slide 38-->
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+        #CSS rules use { and } and ;
+
+        ![CSS keys](framework/img/workshop/csskeys.jpg)
+      </script>
+    </section>
+
+    <!--Slide 39-->
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Rules
+        * CSS is made up of rules
+        * CSS targets parts of the website and tells them what to look like
+        * General, or specific
+
+        ![https://giphy.com/gifs/love-cat-dance-aydEd3UIYy0dG](framework/img/workshop/pusheendance.gif)
+
+        <div class="dropdown">
+                  <button class="dropbtn">Attributions</button>
+                  <div class="dropdown-content">
+                    <a href="https://giphy.com/gifs/love-cat-dance-aydEd3UIYy0dG">Pusheen gif</a>
+                  </div>
+      </script>
+    </section>
+
+    <!--Slide 40-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #CSS
+        ```css
+        p {
+          color:red;
+        }
+        ```
+
+        If humans were tags...<!-- .element: class="delayed" -->
+
+        ```css
+        human {
+          body: stand;
+          tongue: stickout;
+        }
+        ```
+        <!-- .element: class="delayed" -->
+
+        ```css
+        human.mentor {
+          hands: jazzhands;
+        }
+        ```
+        <!-- .element: class="delayed" -->
+      </script>
+    </section>
+
+    <!--Slide 41-->
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Where does CSS go?
+        ![thimble screenshot](framework/img/workshop/csstab.jpg)
+      </script>
+    </section>
+
+    <!--Slide 42-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Endless Style
+        ##Go to [css.cool](css.cool)
+
+        ![css.cool screenshot](framework/img/workshop/csscool.jpg)
+      </script>
+    </section>
+
+    <!--Slide 43-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #STEP 1: Change the colour
+
+        <textarea class="snippet" data-subject="#test">color: slateblue;
+        </textarea>
+
+        <div id="test" class="example">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam nesciunt sint beatae dolor dolorum aliquid quis explicabo vitae numquam.
+        </div>
+
+        ```css
+        p {
+          color: DeepPink;
+        }
+        ```
+        ![css.cool screenshot](framework/img/workshop/csscoolcol.jpg)
+      </script>
+    </section>
+
+    <!--Slide 44-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #STEP 2: Change the font
+        ```css
+        h1 {
+          font-family: Verdana, Geneva, sans-serif;
+          font-size: 18px;
+        }
+        ```
+        ![css.cool screenshot](framework/img/workshop/csscoolfont.jpg)
+
+         <textarea class="snippet" data-subject="#test">font-family: times;
+        font-size: 18px;
+        </textarea>
+
+        <div id="test" class="example">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam nesciunt sint beatae dolor dolorum aliquid quis explicabo vitae numquam.
+        </div>
+
+      </script>
+    </section>
+
+    <!--Slide 45-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #STEP 3: Change the background
+
+        <textarea class="snippet">background-color: lightblue;
+      color: rebeccapurple;</textarea>
+
+        ```css
+        body {
+          background-color: #f5f0f0;
+        }
+        ```
+        OR
+        ```css
+        body {
+          background-image: image.jpeg;
+        }
+        ```
+        * Make sure you upload the image in Thimble first!
+      </script>
+    </section>
+
+    <!--Slide 46-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Add-On: Change the image size
+        ```css
+        img {
+          width: 500px;
+        }
+        ```
+        ![https://www.pexels.com/photo/food-ice-cream-ice-cream-cone-8374/](framework/img/workshop/icecream.jpg)
+
+        <div class="dropdown">
+                  <button class="dropbtn">Attributions</button>
+                  <div class="dropdown-content">
+                    <a href="https://www.pexels.com/photo/food-ice-cream-ice-cream-cone-8374/">Ice cream photo</a>
+                  </div>
+      </script>
+    </section>
+
+    <!--Slide 47-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Add-On: Style one specific tag
+        ##In index.html
+        Give the tag a name ```class="small"```
+        ```html
+        <img class=”small” src=”image.jpeg”/>
+        ```
+
+        ##In style.css
+        Add that name to a new css rule ```img.small```
+        ```css
+        img.small {
+          width: 200px;
+          border-radius: 50%
+        }
+        ```
+      </script>
+    </section>
+
+    <!--Slide 48-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Add-On: Center your content
+        ##In index.html
+        Create ```<section>``` tags around all of your content and give it a name (whatever you want!) ```class="container"```
+        ```html
+        <body>
+          <section class=”container”>
+            (all of your content)
+          </section>
+        </body>
+        ```
+        ##In style.css
+        ```css
+        section.container {
+          width: 800px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        ```
+        Create a new css rule for this tag. Set the width and give it some space on each side (margins)
+
+      </script>
+    </section>
+
+    <!--Slide 49-->
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #DEMOS
+      </script>
+    </section>
+
+    <!--Slide 50-->
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        # Today I Learned...
+
+        <p><strong>I can</strong> remix websites by editing tags in HTML</p><!-- .element: class="delayed" -->
+        <p><strong>I can</strong> add text to my website using ```<h1>``` and ```<p>``` tags</p><!-- .element: class="delayed" -->
+        <p><strong>I can </strong> add images to my website using ```<img>``` tags</p><!-- .element: class="delayed" -->
+        <p><strong>I can</strong> design my website using CSS</p><!-- .element: class="delayed" -->
+        <p><strong>I can</strong> create a website from scratch!</p><!-- .element: class="delayed" -->
+        <p><strong>I can </strong> use Mozilla webmaking tools to KEEP CODING!</p><!-- .element: class="delayed" -->
+
+      </script>
+    </section>
+
+
+    <!-- Last slide -->
+    <section class="slide last">
+      <h1>Thank you!</h1>
+      <h2 class="heading-bg">
+        <span>Webmaking<br>with HTML &amp; CSS</span>
+      </h2>
+
+      <!-- <img class="instructor" src="http://placehold.it/225x225" alt="Instructor Name"> -->
+      <!--<h2><span class="cursive">with</span>Kids Learning Code</h2>-->
+      <ul>
+        <li><a href="http://twitter.com/learningcode">@learningcode</a></li>
+        <li><a href="https://twitter.com/search?q=%23kidslearningcode&src=typd">#kidslearningcode</a></li>
+      </ul>
+
+      <p class="attribution">Slide presentation created by <a href="http://christinatruong.com">Christina Truong</a> based on <a href="https://github.com/LeaVerou/csss">Lea Verou's SlideShow</a> and <a href="http://lab.hakim.se/reveal-js/">reveal.js</a>.</p>
+    </section>
+
+  </main><!-- cls main section -->
+
+  <script src="framework/scripts/jquery-1.11.0.min.js"></script>
+  <script src="framework/scripts/slideshow.js"></script>
+
+  <!-- Uncomment the plugins you need -->
+  <script src="framework/scripts/plugins/css-edit.js"></script>
+  <script src="framework/scripts/plugins/css-snippets.js"></script>
+  <script src="framework/scripts/plugins/css-controls.js"></script>
+  <!-- <script src="plugins/code-highlight.js"></script>-->
+
+  <script src="framework/scripts/plugins/markdown/marked.js"></script>
+  <script src="framework/scripts/plugins/markdown/markdown.js"></script>
+  <script src="framework/scripts/plugins/highlight/highlight-8.4.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="framework/scripts/llc.js"></script>
+  <script>
+    var slideshow = new SlideShow();
+
+    // Grabs all the .snippet elements
+    var snippets = document.querySelectorAll('.snippet');
+    for(var i=0; i<snippets.length; i++) {
+      new CSSSnippet(snippets[i]);
+    }
+  </script>
+</body>
+</html>
