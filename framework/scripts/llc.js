@@ -42,11 +42,15 @@ jQuery(document).ready(function(){
 
       // A11y setup
       this.dropdownContent.id = `dropdown-${this.index}`;
-      this.dropdownBtn.setAttribute('aria-expanded', false);
-      this.dropdownBtn.setAttribute('aria-controls', this.dropdownContent.id);
+      this.dropdownBtn.setAttribute("aria-expanded", false);
+      this.dropdownBtn.setAttribute("aria-controls", this.dropdownContent.id);
 
       // Event listeners
-      this.dropdownBtn.addEventListener("click", this.toggleDropdown.bind(this), false);
+      this.dropdownBtn.addEventListener(
+        "click",
+        this.toggleDropdown.bind(this),
+        false
+      );
       document.addEventListener("keydown", this.escKey.bind(this), false);
       document.addEventListener("click", this.documentClick.bind(this), false);
     }
@@ -54,20 +58,22 @@ jQuery(document).ready(function(){
     // Show dropdown
     showDropdown() {
       this.dropdownContent.style.display = "block";
-      this.dropdownBtn.setAttribute('aria-expanded', true);
+      this.dropdownBtn.setAttribute("aria-expanded", true);
       this.isVisible = true;
     }
 
     // Hide dropdown
     hideDropdown() {
       this.dropdownContent.removeAttribute("style");
-      this.dropdownBtn.setAttribute('aria-expanded', false);
+      this.dropdownBtn.setAttribute("aria-expanded", false);
       this.isVisible = false;
     }
 
     // Toggle dropdown
     toggleDropdown() {
-      (this.dropdownContent.style.display === "block") ? this.hideDropdown() : this.showDropdown();
+      this.dropdownContent.style.display === "block"
+        ? this.hideDropdown()
+        : this.showDropdown();
     }
 
     // Esc keypress
