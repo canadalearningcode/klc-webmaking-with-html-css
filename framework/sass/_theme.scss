@@ -345,6 +345,10 @@ a.highlight {
     img {
       width: 60%;
     }
+
+    ol, ul {
+      list-style-position: inside;
+    }
   }
   .logo {
     width: 350px;
