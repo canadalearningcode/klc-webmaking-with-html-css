@@ -358,7 +358,7 @@ iframe.csss-import.show {
 /* Hoverable drop down menu*/
 
 .dropbtn {
-    background-color: #babcbc;
+    background-color: #717171;
     color: white;
     padding: 16px;
     font-size: 12px;
@@ -387,12 +387,15 @@ iframe.csss-import.show {
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover,
+.dropdown-content a:focus {background-color: #f1f1f1}
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
-.dropdown:hover .dropbtn {
+.dropdown:hover .dropbtn,
+.dropbtn:focus,
+.dropdown:focus-within .dropbtn {
     background-color: #00a076;
 }
