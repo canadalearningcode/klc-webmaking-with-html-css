@@ -387,13 +387,15 @@ iframe.csss-import.show {
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover,
+.dropdown-content a:focus {background-color: #f1f1f1}
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
 .dropdown:hover .dropbtn,
-.dropdown:focus .dropbtn {
-    background-color: #00805e;
+.dropbtn:focus,
+.dropdown:focus-within .dropbtn {
+    background-color: #00a076;
 }
